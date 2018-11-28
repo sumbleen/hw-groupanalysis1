@@ -1,0 +1,19 @@
+<3dClustSim_NN1
+  ni_type="4*float"
+  ni_dimen="3"
+  commandline="3dClustSim -mask group_results/mask+tlrc -acf 0.6384409 5.252591 13.25076 -both -pthr .05 .01 .001 -athr .1 .05 .025 .01 -iter 10000 -prefix group_results/cluster -cmd group_results/refit.cmd"
+  thresholding="bi-sided"
+  nxyz="45,54,45"
+  dxyz="4.000,4.000,4.000"
+  fwhmxyz="0.00,0.00,0.00"
+  iter="10000"
+  pthr="0.05,0.01,0.001"
+  athr="0.1,0.05,0.025,0.01"
+  mask_dset_idcode="XYZ_-mUiZ_dIhnQRZ_YljY-vpA"
+  mask_dset_name="group_results/mask+tlrc.HEAD"
+  mask_count="30980" >
+ 161.7601 194.2207 228.332 270.2462
+ 41.0104 48.79866 57.04354 67.21442
+ 11.60888 14.05019 16.93487 20.45004
+</3dClustSim_NN1>
+
