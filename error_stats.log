@@ -1,0 +1,46 @@
+ERROR: ld.so: object 'libcr_run.so' from LD_PRELOAD cannot be preloaded: ignored.
+[33mWARNING: Non existent bind point (directory) in container: '/apps'
+[0m[33mWARNING: Non existent bind point (directory) in container: '/apps2'
+[0m++ processing 10 input datasets...
+++ padding all datasets by 0 (for dilations)
+++ frac 1 over 10 volumes gives min count 10
+++ voxel limits: 0 clipped, 30980 survived, 78370 were zero
+++ writing result mask...
+++ Output dataset group_results/mask+tlrc.BRIK
+++ 3dttest++: AFNI version=AFNI_18.2.19 (Sep 27 2018) [64-bit]
+++ Authored by: Zhark++
+++ 30980 voxels in -mask dataset
+++ option -setA :: processing as SHORT form (all values are datasets)
+++ loading -setA datasets
+[7m*+ WARNING:[0m 3dttest++ -setA :: 403 vectors are constant
+++ Memory usage now = 3,158,345 (3.2 million [mega])
+++ t-testing:0123456789.0123456789.0123456789.0123456789.0123456789.!
+ + skipped 403 voxels completely for having constant data
+++ ---------- End of analyses -- freeing workspaces ----------
+++ Memory usage now = 2,277,417 (2.3 million [mega])
+++ Creating FDR curves in output dataset
+++ Smallest FDR q [1 SetA_Tstat] = 0.00130645
+ + Added 1 FDR curve to dataset
+++ Output dataset group_results/Foot-Lips+tlrc.BRIK
+++ ----- 3dttest++ says so long, farewell, and happy trails to you :) -----
+scripts/average_blur.py: No match.
+++ 3dClustSim: AFNI version=AFNI_18.2.19 (Sep 27 2018) [64-bit]
+++ Authored by: RW Cox and BD Ward
+++ 30980 voxels in mask (28.33% of total)
+++ Kernel function radius = 38.36 mm
+++ ACF(0.64,5.25,13.25) => FWHM=13.43 => 45x54x45 pads to 80x80x80
+ + Kernel image dimensions 39 x 39 x 39
+++ Startup clock time = 0.1 s
+++ Using 10 OpenMP threads
+Simulating:0123456789.0123456789.0123456789.0123456789.0123456789.!
+++ Clock time now = 113.0 s
+++ Command fragment to put cluster results into a dataset header;
+ + (also echoed to file group_results/refit.cmd for your scripting pleasure)
+ + Append the name of the datasets to be patched to this command:
+ 3drefit -atrstring AFNI_CLUSTSIM_NN1_1sided file:group_results/cluster.NN1_1sided.niml -atrstring AFNI_CLUSTSIM_MASK file:group_results/cluster.mask -atrstring AFNI_CLUSTSIM_NN2_1sided file:group_results/cluster.NN2_1sided.niml -atrstring AFNI_CLUSTSIM_NN3_1sided file:group_results/cluster.NN3_1sided.niml -atrstring AFNI_CLUSTSIM_NN1_2sided file:group_results/cluster.NN1_2sided.niml -atrstring AFNI_CLUSTSIM_NN2_2sided file:group_results/cluster.NN2_2sided.niml -atrstring AFNI_CLUSTSIM_NN3_2sided file:group_results/cluster.NN3_2sided.niml -atrstring AFNI_CLUSTSIM_NN1_bisided file:group_results/cluster.NN1_bisided.niml -atrstring AFNI_CLUSTSIM_NN2_bisided file:group_results/cluster.NN2_bisided.niml -atrstring AFNI_CLUSTSIM_NN3_bisided file:group_results/cluster.NN3_bisided.niml 
+++ 3drefit: AFNI version=AFNI_18.2.19 (Sep 27 2018) [64-bit]
+++ Authored by: RW Cox
+++ Processing AFNI dataset group_results/Foot-Lips+tlrc
+ + atrcopy
+++ applying attributes
+++ 3drefit processed 1 datasets

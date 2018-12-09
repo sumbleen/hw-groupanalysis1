@@ -1,0 +1,11 @@
+# 3dClustSim -mask group_results/mask+tlrc -acf 0.6384409 5.252591 13.25076 -both -pthr .05 .01 .001 -athr .1 .05 .025 .01 -iter 10000 -prefix group_results/cluster -cmd group_results/refit.cmd
+# bi-sided thresholding
+# Grid: 45x54x45 4.00x4.00x4.00 mm^3 (30980 voxels in mask)
+#
+# CLUSTER SIZE THRESHOLD(pthr,alpha) in Voxels
+# -NN 2  | alpha = Prob(Cluster >= given size)
+#  pthr  | .10000 .05000 .02500 .01000
+# ------ | ------ ------ ------ ------
+ 0.050000   204.4  243.8  284.9  342.0
+ 0.010000    45.5   54.3   63.5   75.2
+ 0.001000    12.1   14.7   17.6   21.2

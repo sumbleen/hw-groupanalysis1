@@ -1,0 +1,131 @@
+
+type = string-attribute
+name = HISTORY_NOTE
+count = 2355
+'[root@48fbce0dbdff: Mon Nov  5 10:07:40 2018] ===================================\n[root@48fbce0dbdff: Mon Nov  5 10:07:40 2018] === History of inputs to 3dcalc ===\n[root@48fbce0dbdff: Mon Nov  5 10:07:40 2018] === Input a:\n[root@48fbce0dbdff: Mon Nov  5 10:07:40 2018] [sua13001@cn168: Fri Nov  2 20:35:02 2018] {AFNI_18.2.19:linux_ubuntu_16_64} 3dttest++ -mask group_results/mask+tlrc -prefix group_results/Foot-Lips -setA 'subjects/*-retest.results/stats.*-retest+tlrc.HEAD[Foot-Lips_GLT#0_Coef]'\n[sua13001@cn168: Fri Nov  2 20:37:00 2018] {AFNI_18.2.19:linux_ubuntu_16_64} 3drefit -atrstring AFNI_CLUSTSIM_NN1_1sided file:group_results/cluster.NN1_1sided.niml -atrstring AFNI_CLUSTSIM_MASK file:group_results/cluster.mask -atrstring AFNI_CLUSTSIM_NN2_1sided file:group_results/cluster.NN2_1sided.niml -atrstring AFNI_CLUSTSIM_NN3_1sided file:group_results/cluster.NN3_1sided.niml -atrstring AFNI_CLUSTSIM_NN1_2sided file:group_results/cluster.NN1_2sided.niml -atrstring AFNI_CLUSTSIM_NN2_2sided file:group_results/cluster.NN2_2sided.niml -atrstring AFNI_CLUSTSIM_NN3_2sided file:group_results/cluster.NN3_2sided.niml -atrstring AFNI_CLUSTSIM_NN1_bisided file:group_results/cluster.NN1_bisided.niml -atrstring AFNI_CLUSTSIM_NN2_bisided file:group_results/cluster.NN2_bisided.niml -atrstring AFNI_CLUSTSIM_NN3_bisided file:group_results/cluster.NN3_bisided.niml group_results/Foot-Lips+tlrc\n[root@48fbce0dbdff: Mon Nov  5 10:07:40 2018] === Input b:\n[root@48fbce0dbdff: Mon Nov  5 10:07:40 2018] [sua13001@cn168: Mon Nov  5 10:35:01 2018] {AFNI_18.2.19:linux_ubuntu_16_64} 3dmask_tool -input subjects/01-retest.results/mask_group+tlrc.HEAD subjects/02-retest.results/mask_group+tlrc.HEAD subjects/03-retest.results/mask_group+tlrc.HEAD subjects/04-retest.results/mask_group+tlrc.HEAD subjects/05-retest.results/mask_group+tlrc.HEAD subjects/06-retest.results/mask_group+tlrc.HEAD subjects/07-retest.results/mask_group+tlrc.HEAD subjects/08-retest.results/mask_group+tlrc.HEAD subjects/09-retest.results/mask_group+tlrc.HEAD subjects/10-retest.results/mask_group+tlrc.HEAD -frac 1.0 -prefix group_results/mask\n[root@48fbce0dbdff: Mon Nov  5 10:07:40 2018] ===================================\n[root@48fbce0dbdff: Mon Nov  5 10:07:40 2018] {AFNI_18.2.19:linux_ubuntu_16_64} 3dcalc -a Foot-Lips+tlrc -b mask+tlrc -expr 'a*b' -prefix Foot-Lips_masked~
+
+type = string-attribute
+name = TYPESTRING
+count = 15
+'3DIM_HEAD_FUNC~
+
+type = string-attribute
+name = IDCODE_STRING
+count = 27
+'XYZ_vs9fLNE-ea2PNCOtpq-DJA~
+
+type = string-attribute
+name = IDCODE_DATE
+count = 25
+'Mon Nov  5 10:07:40 2018~
+
+type = integer-attribute
+name = SCENE_DATA
+count = 8
+ 2 11 1 -999 -999
+ -999 -999 -999
+
+type = string-attribute
+name = LABEL_1
+count = 5
+'zyxt~
+
+type = string-attribute
+name = LABEL_2
+count = 5
+'zyxt~
+
+type = string-attribute
+name = DATASET_NAME
+count = 5
+'zyxt~
+
+type = integer-attribute
+name = ORIENT_SPECIFIC
+count = 3
+ 1 2 4
+
+type  = float-attribute
+name  = ORIGIN
+count = 3
+             88            124            -70
+
+type  = float-attribute
+name  = DELTA
+count = 3
+             -4             -4              4
+
+type  = float-attribute
+name  = IJK_TO_DICOM
+count = 12
+             -4              0              0             88              0
+             -4              0            124              0              0
+              4            -70
+
+type  = float-attribute
+name  = IJK_TO_DICOM_REAL
+count = 12
+             -4              0              0             88              0
+             -4              0            124              0              0
+              4            -70
+
+type  = float-attribute
+name  = BRICK_STATS
+count = 4
+     -0.8042966      0.4724086      -15.85734       7.651683
+
+type = integer-attribute
+name = DATASET_RANK
+count = 8
+ 3 2 0 0 0
+ 0 0 0
+
+type = integer-attribute
+name = DATASET_DIMENSIONS
+count = 5
+ 45 54 45 0 0
+
+type = integer-attribute
+name = BRICK_TYPES
+count = 2
+ 3 3
+
+type  = float-attribute
+name  = BRICK_FLOAT_FACS
+count = 2
+              0              0
+
+type = string-attribute
+name = BRICK_LABS
+count = 21
+'SetA_mean~SetA_Tstat~
+
+type = string-attribute
+name = BRICK_KEYWORDS
+count = 2
+'~~
+
+type  = float-attribute
+name  = BRICK_STATAUX
+count = 4
+              1              3              1              9
+
+type = string-attribute
+name = BRICK_STATSYM
+count = 14
+'none;Ttest(9)~
+
+type = string-attribute
+name = TEMPLATE_SPACE
+count = 4
+'MNI~
+
+type = integer-attribute
+name = INT_CMAP
+count = 1
+ 0
+
+type = string-attribute
+name = BYTEORDER_STRING
+count = 10
+'LSB_FIRST~

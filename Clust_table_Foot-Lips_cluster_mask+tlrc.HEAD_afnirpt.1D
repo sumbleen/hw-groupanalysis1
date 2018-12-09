@@ -1,0 +1,6 @@
+# AFNI interactive cluster table
+# 3dclust -1Dformat -nosum -1dindex 0 -1tindex 0 -2thresh -1.96 1.96 -dxyz=1 1.75 18 /bind/group_results/Foot-Lips_cluster_mask+tlrc.HEAD
+#Coordinate order = RAI
+#Voxels  CM x   CM y   CM z  Peak x Peak y Peak z
+#------ ------ ------ ------ ------ ------ ------
+     21   -1.0  +23.4  +75.5   +0.0  +36.0  +70.0

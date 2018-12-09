@@ -1,0 +1,400 @@
+
+type = string-attribute
+name = HISTORY_NOTE
+count = 1124
+'[sua13001@cn168: Fri Nov  2 20:35:02 2018] {AFNI_18.2.19:linux_ubuntu_16_64} 3dttest++ -mask group_results/mask+tlrc -prefix group_results/Foot-Lips -setA 'subjects/*-retest.results/stats.*-retest+tlrc.HEAD[Foot-Lips_GLT#0_Coef]'\n[sua13001@cn168: Fri Nov  2 20:37:00 2018] {AFNI_18.2.19:linux_ubuntu_16_64} 3drefit -atrstring AFNI_CLUSTSIM_NN1_1sided file:group_results/cluster.NN1_1sided.niml -atrstring AFNI_CLUSTSIM_MASK file:group_results/cluster.mask -atrstring AFNI_CLUSTSIM_NN2_1sided file:group_results/cluster.NN2_1sided.niml -atrstring AFNI_CLUSTSIM_NN3_1sided file:group_results/cluster.NN3_1sided.niml -atrstring AFNI_CLUSTSIM_NN1_2sided file:group_results/cluster.NN1_2sided.niml -atrstring AFNI_CLUSTSIM_NN2_2sided file:group_results/cluster.NN2_2sided.niml -atrstring AFNI_CLUSTSIM_NN3_2sided file:group_results/cluster.NN3_2sided.niml -atrstring AFNI_CLUSTSIM_NN1_bisided file:group_results/cluster.NN1_bisided.niml -atrstring AFNI_CLUSTSIM_NN2_bisided file:group_results/cluster.NN2_bisided.niml -atrstring AFNI_CLUSTSIM_NN3_bisided file:group_results/cluster.NN3_bisided.niml group_results/Foot-Lips+tlrc~
+
+type = string-attribute
+name = TYPESTRING
+count = 15
+'3DIM_HEAD_FUNC~
+
+type = string-attribute
+name = IDCODE_STRING
+count = 27
+'XYZ_EBvdxsvB7o9--URCABQK5Q~
+
+type = string-attribute
+name = IDCODE_DATE
+count = 25
+'Fri Nov  2 20:35:02 2018~
+
+type = integer-attribute
+name = SCENE_DATA
+count = 8
+ 2 11 1 -999 -999
+ -999 -999 -999
+
+type = string-attribute
+name = LABEL_1
+count = 5
+'zyxt~
+
+type = string-attribute
+name = LABEL_2
+count = 5
+'zyxt~
+
+type = string-attribute
+name = DATASET_NAME
+count = 5
+'zyxt~
+
+type = integer-attribute
+name = ORIENT_SPECIFIC
+count = 3
+ 1 2 4
+
+type  = float-attribute
+name  = ORIGIN
+count = 3
+             88            124            -70
+
+type  = float-attribute
+name  = DELTA
+count = 3
+             -4             -4              4
+
+type  = float-attribute
+name  = IJK_TO_DICOM
+count = 12
+             -4              0              0             88              0
+             -4              0            124              0              0
+              4            -70
+
+type  = float-attribute
+name  = IJK_TO_DICOM_REAL
+count = 12
+             -4              0              0             88              0
+             -4              0            124              0              0
+              4            -70
+
+type  = float-attribute
+name  = BRICK_STATS
+count = 4
+     -0.8042966      0.4724086      -15.85734       7.651683
+
+type = integer-attribute
+name = DATASET_RANK
+count = 8
+ 3 2 0 0 0
+ 0 0 0
+
+type = integer-attribute
+name = DATASET_DIMENSIONS
+count = 5
+ 45 54 45 0 0
+
+type = integer-attribute
+name = BRICK_TYPES
+count = 2
+ 3 3
+
+type  = float-attribute
+name  = BRICK_FLOAT_FACS
+count = 2
+              0              0
+
+type = string-attribute
+name = BRICK_LABS
+count = 21
+'SetA_mean~SetA_Tstat~
+
+type  = float-attribute
+name  = BRICK_STATAUX
+count = 4
+              1              3              1              9
+
+type = string-attribute
+name = BRICK_STATSYM
+count = 14
+'none;Ttest(9)~
+
+type  = float-attribute
+name  = FDRCURVE_000001
+count = 103
+   0.0001572066      0.1585719      0.5039976      0.5589948        0.61979
+      0.6877562      0.7629224        0.83992      0.9190065      0.9871745
+       1.067024       1.143685       1.219141       1.294006       1.365396
+       1.430715       1.493174        1.55338       1.608038       1.663325
+       1.715441       1.764598       1.812758       1.857799       1.894091
+       1.940265       1.979524        2.02232       2.058766        2.09425
+       2.126279       2.162484       2.201974       2.231578       2.264504
+       2.284042       2.320764       2.348639        2.37243        2.38956
+       2.405903       2.424029       2.458567       2.475045       2.513469
+       2.545563       2.569002       2.597356       2.618517       2.640492
+       2.663224       2.695681       2.711038       2.733893       2.754676
+       2.763524       2.773174       2.786862       2.798855       2.819326
+       2.838621       2.851712       2.866521       2.877163       2.882132
+       2.883288       2.918526        2.94477       2.971014       2.997258
+       3.023502       3.044934        3.05356       3.057142       3.061336
+       3.065529       3.069724       3.073917       3.078112       3.123459
+       3.136153       3.148847       3.161541       3.174235        3.18693
+       3.199624       3.203545       3.203546       3.203546       3.203545
+       3.203545       3.203545       3.203545       3.203545        3.20471
+       3.205941       3.207173       3.208404       3.209635       3.210866
+       3.212097       3.213329        3.21456
+
+type  = float-attribute
+name  = MDFCURVE_000001
+count = 29
+      -5.975701       0.205534      0.9990406      0.9983613       0.998236
+      0.9976242      0.9965171      0.9953212      0.9933734      0.9909384
+      0.9883419      0.9845859      0.9807267      0.9738644      0.9631565
+      0.9494621      0.9316506      0.9096296      0.8797703       0.839586
+      0.7904924      0.7229211      0.6413756      0.5430297      0.4243617
+      0.2883021      0.1507159     0.04989579              0
+
+type = string-attribute
+name = TEMPLATE_SPACE
+count = 4
+'MNI~
+
+type = integer-attribute
+name = INT_CMAP
+count = 1
+ 0
+
+type = string-attribute
+name = BYTEORDER_STRING
+count = 10
+'LSB_FIRST~
+
+type = string-attribute
+name = AFNI_CLUSTSIM_NN1_1sided
+count = 655
+'<3dClustSim_NN1
+  ni_type="4*float"
+  ni_dimen="3"
+  commandline="3dClustSim -mask group_results/mask+tlrc -acf 0.6384409 5.252591 13.25076 -both -pthr .05 .01 .001 -athr .1 .05 .025 .01 -iter 10000 -prefix group_results/cluster -cmd group_results/refit.cmd"
+  thresholding="1-sided"
+  nxyz="45,54,45"
+  dxyz="4.000,4.000,4.000"
+  fwhmxyz="0.00,0.00,0.00"
+  iter="10000"
+  pthr="0.05,0.01,0.001"
+  athr="0.1,0.05,0.025,0.01"
+  mask_dset_idcode="XYZ_-mUiZ_dIhnQRZ_YljY-vpA"
+  mask_dset_name="group_results/mask+tlrc.HEAD"
+  mask_count="30980" >
+ 326.8658 402.7493 484 598
+ 57.24063 69.4575 82 99.39402
+ 13.31748 16.4342 19.78146 23.84464
+</3dClustSim_NN1>~
+
+type = string-attribute
+name = AFNI_CLUSTSIM_MASK
+count = 2674
+'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
+9d/R8FtxOA7H4Tgch+NwHI59PP4HEjAW0A=====109350~
+
+type = string-attribute
+name = AFNI_CLUSTSIM_NN2_1sided
+count = 663
+'<3dClustSim_NN2
+  ni_type="4*float"
+  ni_dimen="3"
+  commandline="3dClustSim -mask group_results/mask+tlrc -acf 0.6384409 5.252591 13.25076 -both -pthr .05 .01 .001 -athr .1 .05 .025 .01 -iter 10000 -prefix group_results/cluster -cmd group_results/refit.cmd"
+  thresholding="1-sided"
+  nxyz="45,54,45"
+  dxyz="4.000,4.000,4.000"
+  fwhmxyz="0.00,0.00,0.00"
+  iter="10000"
+  pthr="0.05,0.01,0.001"
+  athr="0.1,0.05,0.025,0.01"
+  mask_dset_idcode="XYZ_-mUiZ_dIhnQRZ_YljY-vpA"
+  mask_dset_name="group_results/mask+tlrc.HEAD"
+  mask_count="30980" >
+ 471.1663 593.3327 699.5977 874.33
+ 65.47554 78.55401 94 116.2144
+ 14.07252 17.351 20.64451 25.11703
+</3dClustSim_NN2>~
+
+type = string-attribute
+name = AFNI_CLUSTSIM_NN3_1sided
+count = 657
+'<3dClustSim_NN3
+  ni_type="4*float"
+  ni_dimen="3"
+  commandline="3dClustSim -mask group_results/mask+tlrc -acf 0.6384409 5.252591 13.25076 -both -pthr .05 .01 .001 -athr .1 .05 .025 .01 -iter 10000 -prefix group_results/cluster -cmd group_results/refit.cmd"
+  thresholding="1-sided"
+  nxyz="45,54,45"
+  dxyz="4.000,4.000,4.000"
+  fwhmxyz="0.00,0.00,0.00"
+  iter="10000"
+  pthr="0.05,0.01,0.001"
+  athr="0.1,0.05,0.025,0.01"
+  mask_dset_idcode="XYZ_-mUiZ_dIhnQRZ_YljY-vpA"
+  mask_dset_name="group_results/mask+tlrc.HEAD"
+  mask_count="30980" >
+ 538 675 803.499 971
+ 68.38485 82.36411 99.10934 121.1625
+ 14.23557 17.52164 20.95995 25.34666
+</3dClustSim_NN3>~
+
+type = string-attribute
+name = AFNI_CLUSTSIM_NN1_2sided
+count = 671
+'<3dClustSim_NN1
+  ni_type="4*float"
+  ni_dimen="3"
+  commandline="3dClustSim -mask group_results/mask+tlrc -acf 0.6384409 5.252591 13.25076 -both -pthr .05 .01 .001 -athr .1 .05 .025 .01 -iter 10000 -prefix group_results/cluster -cmd group_results/refit.cmd"
+  thresholding="2-sided"
+  nxyz="45,54,45"
+  dxyz="4.000,4.000,4.000"
+  fwhmxyz="0.00,0.00,0.00"
+  iter="10000"
+  pthr="0.05,0.01,0.001"
+  athr="0.1,0.05,0.025,0.01"
+  mask_dset_idcode="XYZ_-mUiZ_dIhnQRZ_YljY-vpA"
+  mask_dset_name="group_results/mask+tlrc.HEAD"
+  mask_count="30980" >
+ 161.7601 194.2207 228.332 270.2462
+ 41.0104 48.79866 57.04354 67.21442
+ 11.60888 14.05019 16.93487 20.45004
+</3dClustSim_NN1>~
+
+type = string-attribute
+name = AFNI_CLUSTSIM_NN2_2sided
+count = 672
+'<3dClustSim_NN2
+  ni_type="4*float"
+  ni_dimen="3"
+  commandline="3dClustSim -mask group_results/mask+tlrc -acf 0.6384409 5.252591 13.25076 -both -pthr .05 .01 .001 -athr .1 .05 .025 .01 -iter 10000 -prefix group_results/cluster -cmd group_results/refit.cmd"
+  thresholding="2-sided"
+  nxyz="45,54,45"
+  dxyz="4.000,4.000,4.000"
+  fwhmxyz="0.00,0.00,0.00"
+  iter="10000"
+  pthr="0.05,0.01,0.001"
+  athr="0.1,0.05,0.025,0.01"
+  mask_dset_idcode="XYZ_-mUiZ_dIhnQRZ_YljY-vpA"
+  mask_dset_name="group_results/mask+tlrc.HEAD"
+  mask_count="30980" >
+ 204.9281 244.2493 285.3307 342.2462
+ 45.50201 54.30166 63.49013 75.23869
+ 12.08658 14.68933 17.57759 21.1979
+</3dClustSim_NN2>~
+
+type = string-attribute
+name = AFNI_CLUSTSIM_NN3_2sided
+count = 671
+'<3dClustSim_NN3
+  ni_type="4*float"
+  ni_dimen="3"
+  commandline="3dClustSim -mask group_results/mask+tlrc -acf 0.6384409 5.252591 13.25076 -both -pthr .05 .01 .001 -athr .1 .05 .025 .01 -iter 10000 -prefix group_results/cluster -cmd group_results/refit.cmd"
+  thresholding="2-sided"
+  nxyz="45,54,45"
+  dxyz="4.000,4.000,4.000"
+  fwhmxyz="0.00,0.00,0.00"
+  iter="10000"
+  pthr="0.05,0.01,0.001"
+  athr="0.1,0.05,0.025,0.01"
+  mask_dset_idcode="XYZ_-mUiZ_dIhnQRZ_YljY-vpA"
+  mask_dset_name="group_results/mask+tlrc.HEAD"
+  mask_count="30980" >
+ 223.1753 266.666 314.7485 376.4975
+ 46.68781 55.6991 65.69267 78.79604
+ 12.17804 14.78703 17.68384 21.32486
+</3dClustSim_NN3>~
+
+type = string-attribute
+name = AFNI_CLUSTSIM_NN1_bisided
+count = 672
+'<3dClustSim_NN1
+  ni_type="4*float"
+  ni_dimen="3"
+  commandline="3dClustSim -mask group_results/mask+tlrc -acf 0.6384409 5.252591 13.25076 -both -pthr .05 .01 .001 -athr .1 .05 .025 .01 -iter 10000 -prefix group_results/cluster -cmd group_results/refit.cmd"
+  thresholding="bi-sided"
+  nxyz="45,54,45"
+  dxyz="4.000,4.000,4.000"
+  fwhmxyz="0.00,0.00,0.00"
+  iter="10000"
+  pthr="0.05,0.01,0.001"
+  athr="0.1,0.05,0.025,0.01"
+  mask_dset_idcode="XYZ_-mUiZ_dIhnQRZ_YljY-vpA"
+  mask_dset_name="group_results/mask+tlrc.HEAD"
+  mask_count="30980" >
+ 161.7601 194.2207 228.332 270.2462
+ 41.0104 48.79866 57.04354 67.21442
+ 11.60888 14.05019 16.93487 20.45004
+</3dClustSim_NN1>~
+
+type = string-attribute
+name = AFNI_CLUSTSIM_NN2_bisided
+count = 668
+'<3dClustSim_NN2
+  ni_type="4*float"
+  ni_dimen="3"
+  commandline="3dClustSim -mask group_results/mask+tlrc -acf 0.6384409 5.252591 13.25076 -both -pthr .05 .01 .001 -athr .1 .05 .025 .01 -iter 10000 -prefix group_results/cluster -cmd group_results/refit.cmd"
+  thresholding="bi-sided"
+  nxyz="45,54,45"
+  dxyz="4.000,4.000,4.000"
+  fwhmxyz="0.00,0.00,0.00"
+  iter="10000"
+  pthr="0.05,0.01,0.001"
+  athr="0.1,0.05,0.025,0.01"
+  mask_dset_idcode="XYZ_-mUiZ_dIhnQRZ_YljY-vpA"
+  mask_dset_name="group_results/mask+tlrc.HEAD"
+  mask_count="30980" >
+ 204.3832 243.8325 284.8871 342
+ 45.50201 54.30166 63.49013 75.23869
+ 12.08658 14.68933 17.57759 21.1979
+</3dClustSim_NN2>~
+
+type = string-attribute
+name = AFNI_CLUSTSIM_NN3_bisided
+count = 663
+'<3dClustSim_NN3
+  ni_type="4*float"
+  ni_dimen="3"
+  commandline="3dClustSim -mask group_results/mask+tlrc -acf 0.6384409 5.252591 13.25076 -both -pthr .05 .01 .001 -athr .1 .05 .025 .01 -iter 10000 -prefix group_results/cluster -cmd group_results/refit.cmd"
+  thresholding="bi-sided"
+  nxyz="45,54,45"
+  dxyz="4.000,4.000,4.000"
+  fwhmxyz="0.00,0.00,0.00"
+  iter="10000"
+  pthr="0.05,0.01,0.001"
+  athr="0.1,0.05,0.025,0.01"
+  mask_dset_idcode="XYZ_-mUiZ_dIhnQRZ_YljY-vpA"
+  mask_dset_name="group_results/mask+tlrc.HEAD"
+  mask_count="30980" >
+ 221.1103 264.7992 313 373
+ 46.68781 55.6991 65.69267 78.79604
+ 12.17804 14.78703 17.68384 21.32486
+</3dClustSim_NN3>~

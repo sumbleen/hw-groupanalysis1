@@ -1,0 +1,14 @@
+#
+#Cluster report for file Foot-Lips_zstat+tlrc 
+#[Connectivity radius = 1.74 mm  Volume threshold = 1152.00 ]
+#[Single voxel volume = 64.0 (microliters) ]
+#[Voxel datum type    = float ]
+#[Voxel dimensions    = 4.000 mm X 4.000 mm X 4.000 mm ]
+#[Coordinates Order   = RAI ]
+#[Fake voxel dimen    = 1.000 mm X 1.000 mm X 1.000 mm ]
+#Mean and SEM based on Absolute Value of voxel intensities: 
+#
+#Volume  CM RL  CM AP  CM IS  minRL  maxRL  minAP  maxAP  minIS  maxIS    Mean     SEM    Max Int  MI RL  MI AP  MI IS
+#------  -----  -----  -----  -----  -----  -----  -----  -----  -----  -------  -------  -------  -----  -----  -----
+     24   14.2   44.2   72.4    8.0   20.0   36.0   52.0   58.0   82.0   3.2566   0.0375   3.5958   16.0   44.0   74.0 
+     21   -0.9   23.4   75.5   -8.0    4.0   16.0   36.0   70.0   82.0   3.1823   0.0222   3.3721    0.0   32.0   74.0 

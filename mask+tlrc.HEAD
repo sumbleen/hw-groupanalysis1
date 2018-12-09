@@ -1,0 +1,121 @@
+
+type = string-attribute
+name = HISTORY_NOTE
+count = 613
+'[sua13001@cn168: Fri Nov  2 20:35:01 2018] {AFNI_18.2.19:linux_ubuntu_16_64} 3dmask_tool -input subjects/01-retest.results/mask_group+tlrc.HEAD subjects/02-retest.results/mask_group+tlrc.HEAD subjects/03-retest.results/mask_group+tlrc.HEAD subjects/04-retest.results/mask_group+tlrc.HEAD subjects/05-retest.results/mask_group+tlrc.HEAD subjects/06-retest.results/mask_group+tlrc.HEAD subjects/07-retest.results/mask_group+tlrc.HEAD subjects/08-retest.results/mask_group+tlrc.HEAD subjects/09-retest.results/mask_group+tlrc.HEAD subjects/10-retest.results/mask_group+tlrc.HEAD -frac 1.0 -prefix group_results/mask~
+
+type = string-attribute
+name = TYPESTRING
+count = 15
+'3DIM_HEAD_ANAT~
+
+type = string-attribute
+name = IDCODE_STRING
+count = 27
+'XYZ_-mUiZ_dIhnQRZ_YljY-vpA~
+
+type = string-attribute
+name = IDCODE_DATE
+count = 25
+'Fri Nov  2 20:35:01 2018~
+
+type = integer-attribute
+name = SCENE_DATA
+count = 8
+ 2 3 0 -999 -999
+ -999 -999 -999
+
+type = string-attribute
+name = LABEL_1
+count = 5
+'zyxt~
+
+type = string-attribute
+name = LABEL_2
+count = 5
+'zyxt~
+
+type = string-attribute
+name = DATASET_NAME
+count = 5
+'zyxt~
+
+type = integer-attribute
+name = ORIENT_SPECIFIC
+count = 3
+ 1 2 4
+
+type  = float-attribute
+name  = ORIGIN
+count = 3
+             88            124            -70
+
+type  = float-attribute
+name  = DELTA
+count = 3
+             -4             -4              4
+
+type  = float-attribute
+name  = IJK_TO_DICOM
+count = 12
+             -4              0              0             88              0
+             -4              0            124              0              0
+              4            -70
+
+type  = float-attribute
+name  = IJK_TO_DICOM_REAL
+count = 12
+             -4              0              0             88              0
+             -4              0            124              0              0
+              4            -70
+
+type  = float-attribute
+name  = BRICK_STATS
+count = 2
+              0              1
+
+type = integer-attribute
+name = DATASET_RANK
+count = 8
+ 3 1 0 0 0
+ 0 0 0
+
+type = integer-attribute
+name = DATASET_DIMENSIONS
+count = 5
+ 45 54 45 0 0
+
+type = integer-attribute
+name = BRICK_TYPES
+count = 1
+ 0
+
+type  = float-attribute
+name  = BRICK_FLOAT_FACS
+count = 1
+              0
+
+type = string-attribute
+name = BRICK_LABS
+count = 8
+'MINC[0]~
+
+type = string-attribute
+name = BRICK_KEYWORDS
+count = 1
+'~
+
+type = string-attribute
+name = TEMPLATE_SPACE
+count = 4
+'MNI~
+
+type = integer-attribute
+name = INT_CMAP
+count = 1
+ 0
+
+type = string-attribute
+name = BYTEORDER_STRING
+count = 10
+'LSB_FIRST~
